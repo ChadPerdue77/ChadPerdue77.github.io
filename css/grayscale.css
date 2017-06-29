@@ -371,7 +371,6 @@ body {
   margin: 0;
 }
 #portfolio .portfolio-item .portfolio-caption p {
-  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-style: italic;
   font-size: 16px;
   margin: 0;
@@ -457,4 +456,9 @@ body {
 .portfolio-modal .modal-backdrop {
   opacity: 0;
   display: none;
+}
+.img-responsive{
+  height: 269px;
+  width: 400px;
+  border:1px solid black;
 }
