@@ -22,6 +22,7 @@ h1{
     font-size: 16px;
     border: none;
     cursor: pointer;
+    position: relative;
 }
 
 /* The container <div> - needed to position the dropdown content */
@@ -102,7 +103,7 @@ a:focus {
   background-color: grey;
 }
 #posts{
-	float: right;
+	float: left;
     background-color: grey;
     color:black;
     margin: 15px 50px 0px 15px;
@@ -122,35 +123,14 @@ section div.panel{
     border: #ccc solid 1px;
 }
 footer {
-	background-color: #40362f;
-	height: 25px;
-	font-size: 1.2em;
-	color: #fff;
-	width: 100%;
-	text-align: center;
-	padding: 1.5em 2em;
+	background-color: purple;
+    padding: 0px 0px 1px 0px;
+    text-align: center;
+    margin: 0px -8px -8px -8px;
+    border-top: 2px solid darkgrey;
+    position: relative;
+    top: 666px;
 }
-
-footer ul#menuFooter {
-	display: inline-block;
-	list-style: none;
-	margin: 0 0 0 .6em;
-	padding: 0;
-}
-footer ul li {
-	display: inline-block;
-	padding: 0 .7em 0 0;
-	margin: 0;
-}
-footer ul li::before {
-	content: "  ";
-	padding-right: .7em;
-}
-footer a, footer a:visited {
-	color: #fff;
-	text-decoration: none;
-}
-footer a:hover {
-	color: #fff;
-	text-decoration: underline;
+p {
+	text-align:center;
 }
