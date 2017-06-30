@@ -1,0 +1,101 @@
+body{
+	background-image:url("img/griptape.jpg");
+	 background-repeat: repeat-y repeat-x;
+}
+h1{
+	font:fantasy;
+}
+#header{
+	background-color: purple;
+	padding-top:1px;
+	padding-bottom:1px;  
+	margin: -8px;
+	border-bottom: 2px solid darkgrey;
+}
+#sidebar{
+	width: 136px;
+    float: left;
+    position: relative;
+    display: block;
+    background-color: lightgrey;
+    margin: 15px 0 0px 0px;
+    padding: 2px 0px 2px 2px;
+    border: purple solid 3px;
+}
+#menu{
+	list-style-type: none;
+	position: relative;
+	left: -28px;
+}
+li{
+	margin: 10px auto;
+	padding:0px;
+}
+a{
+    margin: 10px auto;
+    text-align: center;
+    padding:0px;
+    text-decoration: blink;
+    color: purple;
+}
+img-postpic{
+	height: 100px;
+	width: 100px;
+}
+a:hover,
+a:focus {
+  text-decoration: underline;
+  background-color: grey;
+}
+#posts{
+	float: right;
+    background-color: grey;
+    margin: 15px 50px 0px 15px;
+    border-radius: 10px;
+    padding: 5px;
+    position: static;
+}
+section div.panel{
+	align-items: center;
+    position: relative;
+    width: 250px;
+    height:250px;
+    float: inherit;
+    margin: 0 .5em 2em .5em;
+    padding: 1em;
+    background-color: #fff;
+    border: #ccc solid 1px;
+}
+footer {
+	background-color: #40362f;
+	height: 25px;
+	font-size: 1.2em;
+	color: #fff;
+	width: 100%;
+	text-align: center;
+	padding: 1.5em 2em;
+}
+
+footer ul#menuFooter {
+	display: inline-block;
+	list-style: none;
+	margin: 0 0 0 .6em;
+	padding: 0;
+}
+footer ul li {
+	display: inline-block;
+	padding: 0 .7em 0 0;
+	margin: 0;
+}
+footer ul li::before {
+	content: "  ";
+	padding-right: .7em;
+}
+footer a, footer a:visited {
+	color: #fff;
+	text-decoration: none;
+}
+footer a:hover {
+	color: #fff;
+	text-decoration: underline;
+}
