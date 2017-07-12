@@ -1,9 +1,6 @@
 body{
 	background-image:url("img/griptape.jpg");
-	 background-repeat: repeat-y repeat-x;
-}
-h1{
-	font:fantasy;
+	background-repeat: repeat-y repeat-x;
 }
 #header{
 	background-color: purple;
@@ -11,8 +8,8 @@ h1{
 	padding-bottom:1px;  
 	margin: -8px;
 	border-bottom: 2px solid darkgrey;
+    font-family: 'Exo 2', sans-serif;
 }
-
 
 /* Dropdown Button */
 .dropbtn {
@@ -23,6 +20,7 @@ h1{
     border: none;
     cursor: pointer;
     position: relative;
+    font-family: 'Roboto', sans-serif;
 }
 
 /* The container <div> - needed to position the dropdown content */
@@ -63,28 +61,16 @@ h1{
     background-color: lightgrey;
     color: black;
 }
-
-
-
-
-#sidebar{
-	width: 136px;
-    float: left;
-    position: relative;
-    display: block;
-    background-color: lightgrey;
-    margin: 15px 0 0px 0px;
-    padding: 2px 0px 2px 2px;
-    border: purple solid 3px;
-}
 #menu{
 	list-style-type: none;
 	position: relative;
 	left: -28px;
+    font-family: 'Roboto', sans-serif;
 }
 li{
 	margin: 10px auto;
 	padding:0px;
+    font-family: 'Roboto', sans-serif;
 }
 a{
     margin: 10px auto;
@@ -103,13 +89,15 @@ a:focus {
   background-color: grey;
 }
 #posts{
-	float: left;
-    background-color: grey;
-    color:black;
-    margin: 15px 50px 0px 15px;
+	background-color: grey;
+    align-self: center;
+    align-content: space-around;
+    color: black;
+    margin: 22px 5px 22px 5px;
     border-radius: 10px;
     padding: 5px;
     position: static;
+    font-family: 'Roboto', sans-serif;
 }
 section div.panel{
 	align-items: center;

@@ -57,7 +57,7 @@ a:focus {
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
   text-transform: none;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  background-color: black;
+  background-color: #443344 ;
 }
 .navbar-custom .navbar-toggle {
   color: white;
@@ -113,7 +113,7 @@ a:focus {
   }
   .navbar-custom.top-nav-collapse {
     padding: 0;
-    background: black;
+    background: #332233 ;
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
   }
 }
@@ -124,7 +124,7 @@ a:focus {
   padding: 100px 0;
   text-align: center;
   color: white;
-  background: url(../img/intro-bg.jpg) no-repeat bottom center scroll;
+  background: url(../img/realcactus.jpg) no-repeat bottom center scroll;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -140,6 +140,7 @@ a:focus {
 }
 .intro .intro-body .intro-text {
   font-size: 18px;
+  color: #111122 ;
 }
 @media (min-width: 768px) {
   .intro {
@@ -231,19 +232,7 @@ a:focus {
   background-size: cover;
   -o-background-size: cover;
 }
-.download-section .btn-default {
-  border: 1px solid #008000;
-  color: #4B0082;
-  background-color: lightgrey;
-}
-.btn-default:hover,
-.btn-default:focus {
-  border: 1px solid #4B0082;
-  outline: none;
-  color: black;
-  background-color: #008000;
 
-}
 @media (min-width: 767px) {
   .content-section {
     padding-top: 100px;
@@ -262,7 +251,7 @@ a:focus {
   border-radius: 0;
 }
 .btn-default {
-  border: 1px solid #008000;
+  border: 1px solid #221122;
   color: #4B0082;
   background-color: transparent;
 }
@@ -270,8 +259,8 @@ a:focus {
 .btn-default:focus {
   border: 1px solid #4B0082;
   outline: none;
-  color: black;
-  background-color: #008000;
+  color: white;
+  background-color: #554455;
 }
 ul.banner-social-buttons {
   margin-top: 0;
@@ -293,7 +282,7 @@ ul.banner-social-buttons {
 }
 footer {
   padding: 50px 0;
-  background-color: darkgrey;
+  background-color: #554455 ;
   margin-top: 100px
 }
 footer p {
