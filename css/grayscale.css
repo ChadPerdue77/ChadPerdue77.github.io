@@ -159,10 +159,10 @@ a:focus {
   height: 70px;
   margin-top: 15px;
   padding: 7px 16px;
-  border: 2px solid white;
+  border: 2px solid rgba(199,101,165, 0.3);
   border-radius: 100% !important;
   font-size: 40px;
-  color: white;
+  color: #443344;
   background: transparent;
   -webkit-transition: background 0.3s ease-in-out;
   -moz-transition: background 0.3s ease-in-out;
@@ -171,8 +171,8 @@ a:focus {
 .btn-circle:hover,
 .btn-circle:focus {
   outline: none;
-  color: white;
-  background: rgba(255, 255, 255, 0.1);
+  color: #443344;
+  background: rgba(199,101,165, 0.3);
 }
 .btn-circle i.animated {
   -webkit-transition-property: -webkit-transform;
@@ -319,7 +319,7 @@ body {
   margin: 0 auto;
 }
 #portfolio .portfolio-item .portfolio-link .portfolio-hover {
-  background: rgba(254, 209, 54, 0.9);
+  background-color: rgba(302, 228, 255, 0.5);
   position: absolute;
   width: 100%;
   height: 100%;
