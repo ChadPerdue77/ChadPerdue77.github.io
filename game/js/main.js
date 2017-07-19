@@ -117,11 +117,10 @@ PlayState.preload = function () {
    this.game.load.spritesheet('hero', 'images/hero.png', 36, 42);
    this.game.load.spritesheet('door', 'images/door.png', 42, 66);
    this.game.load.spritesheet('icon:key', 'images/key_icon.png', 34, 30);
-   this.game.load.audio('sfx:backgroundmusic', 'audio/mamatoldmelilpumpwontbeshiii.mp3');
    this.game.load.audio('sfx:jump', 'audio/ESKETIT-.mp3');
-   this.game.load.audio('sfx:coin', 'audio/lilpumpyah.mp3');
-   this.game.load.audio('sfx:stomp', 'audio/drose.mp3');
-   this.game.load.audio('sfx:key', 'audio/lilpumpouu.mp3');
+   this.game.load.audio('sfx:coin', 'audio/LilpumpYah.mp3');
+   this.game.load.audio('sfx:stomp', 'audio/Drose.mp3');
+   this.game.load.audio('sfx:key', 'audio/LilpumpOuu.mp3');
    this.game.load.audio('sfx:door', 'audio/door.wav');
    this.game.load.audio('sfx:ded', 'audio/DSH.mp3');
 };
